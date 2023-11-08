@@ -15,6 +15,9 @@ Do the folowing steps
    pip install django
 ```
 > Clone the repository
+```
+https://github.com/Akshansh8/Blog_web_app.git
+```
 >Make migrations
 ```
  python manage.py makemigrations

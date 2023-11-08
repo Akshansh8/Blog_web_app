@@ -6,11 +6,22 @@ Do the folowing steps
 ```
   pip install virtualenv
 ```
-2.Create virtualenv
-   virtualenv myenv
-3. Install Django
+>Create virtualenv
+```
+  virtualenv myenv
+```
+>Install Django
+```
    pip install django
-4. Clone the repository
-5. python manage.py makemigrations
-   python manage.py migrate
+```
+> Clone the repository
+>Make migrations
+```
+ python manage.py makemigrations
+ python manage.py migrate
+```
+>Create superuser
+```
+python manage.py createsuperuser
+```
    
